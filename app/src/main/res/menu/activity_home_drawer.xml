@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/meetings"
+            android:icon="@drawable/meetingg"
+            android:title="Meetings" />
+        <item
+            android:id="@+id/accounts"
+            android:icon="@drawable/accountt"
+            android:title="Accounts" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/settingg"
+            android:title="Setting" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logoutt"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>
